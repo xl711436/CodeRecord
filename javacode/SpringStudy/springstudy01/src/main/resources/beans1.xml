@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="address" class="com.xl.pojo.Address">
+        <property name="address" value="ddf"></property>
+    </bean>
+    <bean id ="student" class="com.xl.pojo.Student">
+
+        <property name="name" value="ccc"></property>
+        <property name="address" ref="address"></property>
+        <property name="books">
+            <array>
+                <value>红楼梦</value>
+                <value>西游记</value>
+                <value>三国</value>
+            </array>
+        </property>
+        <property name="hobbys">
+            <list>
+                <value>听歌</value>
+                <value>打球</value>
+                <value>看电影</value>
+            </list>
+        </property>
+        <property name="card">
+            <map>
+              <entry key="zzz" value="zzzz11111"></entry>
+                <entry key="aaa" value="aaa11111"></entry>
+                <entry key="bbb" value="bbb11111"></entry>
+            </map>
+        </property>
+        <property name="games">
+            <set>
+                <value>lol</value>
+                <value>coc</value>
+                <value>bob</value>
+            </set>
+        </property>
+
+        <property name="wife">
+           <null></null>
+        </property>
+
+        <property name="info">
+            <props>
+                <prop key="info1" >111</prop>
+                <prop key="info2" >222</prop>
+                <prop key="info3" >333</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>

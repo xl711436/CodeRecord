@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ImageviewActivity">
+
+    <ImageView
+        android:id="@+id/Iv_1"
+        android:src="@drawable/bg_girl"
+        android:scaleType="fitXY"
+        android:layout_width="300dp"
+        android:layout_height="200dp">
+
+    </ImageView>
+
+
+    <ImageView
+        android:id="@+id/Iv_2"
+        android:layout_below="@id/Iv_1"
+        android:scaleType="fitXY"
+        android:layout_width="300dp"
+        android:layout_height="200dp">
+
+    </ImageView>
+
+</RelativeLayout>

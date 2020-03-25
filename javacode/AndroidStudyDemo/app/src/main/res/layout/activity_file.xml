@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".datastorage.FileActivity">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:text="输入内容"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:textAllCaps="false"
+        android:text="保存"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_show"
+        android:textAllCaps="false"
+        android:text="显示"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_show"
+        android:text="输入内容"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/Iv_load"
+        android:scaleType="fitXY"
+        android:layout_width="300dp"
+        android:layout_height="200dp">
+    </ImageView>
+    <ImageView
+        android:id="@+id/Iv_load1"
+        android:scaleType="fitXY"
+        android:layout_width="300dp"
+        android:layout_height="200dp">
+    </ImageView>
+</LinearLayout>

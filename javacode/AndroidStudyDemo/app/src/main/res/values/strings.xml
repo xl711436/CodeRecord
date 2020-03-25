@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidDemo</string>
+    <string name="title_activity_text_view">TextViewActivity</string>
+    <string name="title_activity_layout">LayoutActivity</string>
+    <string name="tv_test1">得分对的222</string>
+    <string name="title_activity_button">ButtonActivity</string>
+    <string name="title_activity_edit_text">EditTextActivity</string>
+    <string name="title_activity_radio_button">RadioButtonActivity</string>
+    <string name="title_activity_check_box">CheckBoxActivity</string>
+    <string name="title_activity_imageview">ImageviewActivity</string>
+</resources>

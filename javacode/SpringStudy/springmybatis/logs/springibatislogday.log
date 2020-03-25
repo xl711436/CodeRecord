@@ -1,0 +1,246 @@
+2020-03-0800:01:25 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0800:07:02 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0800:07:03 [main:429] - [DEBUG]Creating a new SqlSession
+2020-03-0800:07:03 [main:433] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74235045] was not registered for synchronization because synchronization is not active
+2020-03-0800:07:03 [main:438] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.0
+2020-03-0800:07:03 [main:1155] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@762ef0ea] will not be managed by Spring
+2020-03-0800:07:03 [main:1201] - [DEBUG]==>  Preparing: select * from mybatis.user 
+2020-03-0800:07:03 [main:1256] - [DEBUG]==> Parameters: 
+2020-03-0800:07:03 [main:1288] - [DEBUG]<==      Total: 7
+2020-03-0800:07:03 [main:1291] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74235045]
+2020-03-0800:09:30 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0800:09:30 [main:241] - [DEBUG]Creating a new SqlSession
+2020-03-0800:09:30 [main:261] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74235045] was not registered for synchronization because synchronization is not active
+2020-03-0800:09:30 [main:267] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.0
+2020-03-0800:09:31 [main:774] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@762ef0ea] will not be managed by Spring
+2020-03-0800:09:31 [main:794] - [DEBUG]==>  Preparing: select * from mybatis.user 
+2020-03-0800:09:31 [main:884] - [DEBUG]==> Parameters: 
+2020-03-0800:09:31 [main:899] - [DEBUG]<==      Total: 7
+2020-03-0800:09:31 [main:900] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74235045]
+2020-03-0800:09:31 [main:902] - [DEBUG]Creating a new SqlSession
+2020-03-0800:09:31 [main:902] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d8bd0de] was not registered for synchronization because synchronization is not active
+2020-03-0800:09:31 [main:902] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.5
+2020-03-0800:09:31 [main:903] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d8bd0de]
+2020-03-0810:30:32 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0810:30:32 [main:197] - [DEBUG]Creating a new SqlSession
+2020-03-0810:30:32 [main:202] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b71e916] was not registered for synchronization because synchronization is not active
+2020-03-0810:30:32 [main:206] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.0
+2020-03-0810:30:32 [main:498] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@3c0be339] will not be managed by Spring
+2020-03-0810:30:32 [main:519] - [DEBUG]==>  Preparing: select * from mybatis.user 
+2020-03-0810:30:32 [main:611] - [DEBUG]==> Parameters: 
+2020-03-0810:30:32 [main:655] - [DEBUG]<==      Total: 7
+2020-03-0810:30:32 [main:656] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b71e916]
+2020-03-0810:30:32 [main:658] - [DEBUG]Creating a new SqlSession
+2020-03-0810:30:32 [main:659] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@343570b7] was not registered for synchronization because synchronization is not active
+2020-03-0810:30:32 [main:660] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.5
+2020-03-0810:30:32 [main:660] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@343570b7]
+2020-03-0810:30:32 [main:660] - [DEBUG]Creating a new SqlSession
+2020-03-0810:30:32 [main:661] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@157853da] was not registered for synchronization because synchronization is not active
+2020-03-0810:30:32 [main:662] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.6666666666666666
+2020-03-0810:30:32 [main:667] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@157853da]
+2020-03-0810:42:50 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0810:42:50 [main:133] - [DEBUG]Creating a new SqlSession
+2020-03-0810:42:50 [main:137] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36fc695d] was not registered for synchronization because synchronization is not active
+2020-03-0810:42:50 [main:140] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.0
+2020-03-0810:42:51 [main:452] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@15ca7889] will not be managed by Spring
+2020-03-0810:42:51 [main:464] - [DEBUG]==>  Preparing: select * from mybatis.user 
+2020-03-0810:42:51 [main:492] - [DEBUG]==> Parameters: 
+2020-03-0810:42:51 [main:511] - [DEBUG]<==      Total: 7
+2020-03-0810:42:51 [main:512] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36fc695d]
+2020-03-0810:42:51 [main:516] - [DEBUG]Creating a new SqlSession
+2020-03-0810:42:51 [main:516] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@157853da] was not registered for synchronization because synchronization is not active
+2020-03-0810:42:51 [main:516] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.5
+2020-03-0810:42:51 [main:517] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@157853da]
+2020-03-0810:42:51 [main:518] - [DEBUG]Creating a new SqlSession
+2020-03-0810:42:51 [main:518] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71c3b41] was not registered for synchronization because synchronization is not active
+2020-03-0810:42:51 [main:518] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.6666666666666666
+2020-03-0810:42:51 [main:520] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71c3b41]
+2020-03-0810:42:51 [main:524] - [DEBUG]Creating a new SqlSession
+2020-03-0810:42:51 [main:525] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f16132a] was not registered for synchronization because synchronization is not active
+2020-03-0810:42:51 [main:525] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.75
+2020-03-0810:42:51 [main:526] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f16132a]
+2020-03-0810:45:32 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0810:45:32 [main:268] - [DEBUG]Creating a new SqlSession
+2020-03-0810:45:32 [main:273] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@62379589] was not registered for synchronization because synchronization is not active
+2020-03-0810:45:32 [main:283] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.0
+2020-03-0810:45:33 [main:666] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@2898ac89] will not be managed by Spring
+2020-03-0810:45:33 [main:678] - [DEBUG]==>  Preparing: select * from mybatis.user 
+2020-03-0810:45:33 [main:720] - [DEBUG]==> Parameters: 
+2020-03-0810:45:33 [main:751] - [DEBUG]<==      Total: 7
+2020-03-0810:45:33 [main:752] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@62379589]
+2020-03-0810:45:33 [main:776] - [DEBUG]Creating a new SqlSession
+2020-03-0810:45:33 [main:777] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6bf0219d] was not registered for synchronization because synchronization is not active
+2020-03-0810:45:33 [main:777] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.5
+2020-03-0810:45:33 [main:777] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6bf0219d]
+2020-03-0810:45:33 [main:779] - [DEBUG]Creating a new SqlSession
+2020-03-0810:45:33 [main:780] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@dd0c991] was not registered for synchronization because synchronization is not active
+2020-03-0810:45:33 [main:780] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.6666666666666666
+2020-03-0810:45:33 [main:785] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@dd0c991]
+2020-03-0810:46:04 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0810:46:05 [main:220] - [DEBUG]Creating a new SqlSession
+2020-03-0810:46:05 [main:228] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@62379589] was not registered for synchronization because synchronization is not active
+2020-03-0810:46:05 [main:233] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.0
+2020-03-0810:46:05 [main:604] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@2898ac89] will not be managed by Spring
+2020-03-0810:46:05 [main:620] - [DEBUG]==>  Preparing: select * from mybatis.user 
+2020-03-0810:46:05 [main:675] - [DEBUG]==> Parameters: 
+2020-03-0810:46:05 [main:702] - [DEBUG]<==      Total: 7
+2020-03-0810:46:05 [main:704] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@62379589]
+2020-03-0810:46:05 [main:707] - [DEBUG]Creating a new SqlSession
+2020-03-0810:46:05 [main:707] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6bf0219d] was not registered for synchronization because synchronization is not active
+2020-03-0810:46:05 [main:708] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.5
+2020-03-0810:46:05 [main:708] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6bf0219d]
+2020-03-0810:46:05 [main:710] - [DEBUG]Creating a new SqlSession
+2020-03-0810:46:05 [main:710] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@dd0c991] was not registered for synchronization because synchronization is not active
+2020-03-0810:46:05 [main:710] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.6666666666666666
+2020-03-0810:46:05 [main:712] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@dd0c991]
+2020-03-0810:46:05 [main:714] - [DEBUG]Creating a new SqlSession
+2020-03-0810:46:05 [main:715] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@671a5887] was not registered for synchronization because synchronization is not active
+2020-03-0810:46:05 [main:715] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.75
+2020-03-0810:46:05 [main:715] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@671a5887]
+2020-03-0810:57:25 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0810:58:50 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0810:58:50 [main:310] - [DEBUG]Creating a new SqlSession
+2020-03-0810:58:50 [main:316] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43bc63a3] was not registered for synchronization because synchronization is not active
+2020-03-0810:58:51 [main:701] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@21b2e768] will not be managed by Spring
+2020-03-0810:58:51 [main:713] - [DEBUG]==>  Preparing: insert into mybatis.user (id,name,pwd) values (?,?,?) 
+2020-03-0810:58:51 [main:753] - [DEBUG]==> Parameters: 200(Integer), 啊啊(String), 3343(String)
+2020-03-0810:58:51 [main:760] - [DEBUG]<==    Updates: 1
+2020-03-0810:58:51 [main:761] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43bc63a3]
+2020-03-0810:58:51 [main:763] - [DEBUG]Creating a new SqlSession
+2020-03-0810:58:51 [main:763] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3943a2be] was not registered for synchronization because synchronization is not active
+2020-03-0810:58:51 [main:768] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@71c3b41] will not be managed by Spring
+2020-03-0810:58:51 [main:769] - [DEBUG]==>  Preparing: delete from mybatis.user where id = ? 
+2020-03-0810:58:51 [main:770] - [DEBUG]==> Parameters: 200(Integer)
+2020-03-0810:58:51 [main:775] - [DEBUG]<==    Updates: 1
+2020-03-0810:58:51 [main:776] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3943a2be]
+2020-03-0810:58:51 [main:776] - [DEBUG]Creating a new SqlSession
+2020-03-0810:58:51 [main:778] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36d585c] was not registered for synchronization because synchronization is not active
+2020-03-0810:58:51 [main:780] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDaoTransation]: 0.0
+2020-03-0810:58:51 [main:785] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@41c2284a] will not be managed by Spring
+2020-03-0810:58:51 [main:785] - [DEBUG]==>  Preparing: select * from mybatis.user 
+2020-03-0810:58:51 [main:785] - [DEBUG]==> Parameters: 
+2020-03-0810:58:51 [main:799] - [DEBUG]<==      Total: 7
+2020-03-0810:58:51 [main:800] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36d585c]
+2020-03-0810:59:43 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0810:59:43 [main:261] - [DEBUG]Creating a new SqlSession
+2020-03-0810:59:43 [main:268] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43bc63a3] was not registered for synchronization because synchronization is not active
+2020-03-0810:59:44 [main:688] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@21b2e768] will not be managed by Spring
+2020-03-0810:59:44 [main:696] - [DEBUG]==>  Preparing: insert into mybatis.user (id,name,pwd) values (?,?,?) 
+2020-03-0810:59:44 [main:738] - [DEBUG]==> Parameters: 200(Integer), 啊啊(String), 3343(String)
+2020-03-0810:59:44 [main:745] - [DEBUG]<==    Updates: 1
+2020-03-0810:59:44 [main:747] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43bc63a3]
+2020-03-0810:59:44 [main:748] - [DEBUG]Creating a new SqlSession
+2020-03-0810:59:44 [main:749] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3943a2be] was not registered for synchronization because synchronization is not active
+2020-03-0810:59:44 [main:754] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@71c3b41] will not be managed by Spring
+2020-03-0810:59:44 [main:754] - [DEBUG]==>  Preparing: deletes from mybatis.user where id = ? 
+2020-03-0810:59:44 [main:755] - [DEBUG]==> Parameters: 200(Integer)
+2020-03-0810:59:44 [main:764] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3943a2be]
+2020-03-0822:22:42 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0822:25:13 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0822:25:27 [main:14565] - [DEBUG]Creating a new SqlSession
+2020-03-0822:25:27 [main:14580] - [DEBUG]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61a5b4ae]
+2020-03-0822:25:27 [main:14602] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@85ec632] will be managed by Spring
+2020-03-0822:25:27 [main:14659] - [DEBUG]==>  Preparing: insert into mybatis.user (id,name,pwd) values (?,?,?) 
+2020-03-0822:25:27 [main:14927] - [DEBUG]==> Parameters: 200(Integer), 啊啊(String), 3343(String)
+2020-03-0822:25:27 [main:14930] - [DEBUG]<==    Updates: 1
+2020-03-0822:25:27 [main:14932] - [DEBUG]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61a5b4ae]
+2020-03-0822:25:27 [main:14935] - [DEBUG]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61a5b4ae]
+2020-03-0822:25:27 [main:14937] - [DEBUG]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61a5b4ae]
+2020-03-0822:25:27 [main:14938] - [DEBUG]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61a5b4ae]
+2020-03-0822:25:30 [main:17736] - [DEBUG]Creating a new SqlSession
+2020-03-0822:25:30 [main:17737] - [DEBUG]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c44052e]
+2020-03-0822:25:30 [main:17738] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@530a8454] will be managed by Spring
+2020-03-0822:25:30 [main:17739] - [DEBUG]==>  Preparing: deletes from mybatis.user where id = ? 
+2020-03-0822:25:30 [main:17741] - [DEBUG]==> Parameters: 200(Integer)
+2020-03-0822:25:30 [main:17775] - [DEBUG]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c44052e]
+2020-03-0822:25:31 [main:18002] - [DEBUG]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c44052e]
+2020-03-0822:25:31 [main:18003] - [DEBUG]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c44052e]
+2020-03-0822:29:07 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0822:29:38 [main:31298] - [DEBUG]Creating a new SqlSession
+2020-03-0822:29:38 [main:31316] - [DEBUG]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f3c966c]
+2020-03-0822:29:38 [main:31345] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@3b65e559] will be managed by Spring
+2020-03-0822:29:39 [main:31418] - [DEBUG]==>  Preparing: insert into mybatis.user (id,name,pwd) values (?,?,?) 
+2020-03-0822:29:39 [main:31880] - [DEBUG]==> Parameters: 200(Integer), 啊啊(String), 3343(String)
+2020-03-0822:29:39 [main:31883] - [DEBUG]<==    Updates: 1
+2020-03-0822:29:39 [main:31885] - [DEBUG]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f3c966c]
+2020-03-0822:29:39 [main:31889] - [DEBUG]Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f3c966c]
+2020-03-0822:29:39 [main:31892] - [DEBUG]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f3c966c]
+2020-03-0822:29:39 [main:31894] - [DEBUG]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f3c966c]
+2020-03-0822:36:17 [main:430133] - [DEBUG]Creating a new SqlSession
+2020-03-0822:36:17 [main:430134] - [DEBUG]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7668d560]
+2020-03-0822:36:17 [main:430139] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@126be319] will be managed by Spring
+2020-03-0822:36:17 [main:430140] - [DEBUG]==>  Preparing: deletes from mybatis.user where id = ? 
+2020-03-0822:36:17 [main:430141] - [DEBUG]==> Parameters: 200(Integer)
+2020-03-0822:36:17 [main:430160] - [DEBUG]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7668d560]
+2020-03-0822:36:17 [main:430234] - [DEBUG]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7668d560]
+2020-03-0822:36:17 [main:430235] - [DEBUG]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7668d560]
+2020-03-0822:36:23 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0822:36:28 [main:5425] - [DEBUG]Creating a new SqlSession
+2020-03-0822:36:28 [main:5441] - [DEBUG]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11ee02f8]
+2020-03-0822:36:28 [main:5465] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@bae47a0] will be managed by Spring
+2020-03-0822:36:28 [main:5528] - [DEBUG]==>  Preparing: insert into mybatis.user (id,name,pwd) values (?,?,?) 
+2020-03-0822:36:28 [main:5785] - [DEBUG]==> Parameters: 200(Integer), 啊啊(String), 3343(String)
+2020-03-0822:36:28 [main:5790] - [DEBUG]<==    Updates: 1
+2020-03-0822:36:28 [main:5792] - [DEBUG]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11ee02f8]
+2020-03-0822:36:28 [main:5795] - [DEBUG]Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11ee02f8] from current transaction
+2020-03-0822:36:28 [main:5796] - [DEBUG]==>  Preparing: deletes from mybatis.user where id = ? 
+2020-03-0822:36:28 [main:5797] - [DEBUG]==> Parameters: 200(Integer)
+2020-03-0822:36:29 [main:5825] - [DEBUG]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11ee02f8]
+2020-03-0822:36:29 [main:6150] - [DEBUG]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11ee02f8]
+2020-03-0822:36:29 [main:6152] - [DEBUG]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11ee02f8]
+2020-03-0822:37:02 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0822:37:02 [main:259] - [DEBUG]Creating a new SqlSession
+2020-03-0822:37:02 [main:264] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43bc63a3] was not registered for synchronization because synchronization is not active
+2020-03-0822:37:02 [main:741] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@21b2e768] will not be managed by Spring
+2020-03-0822:37:02 [main:749] - [DEBUG]==>  Preparing: insert into mybatis.user (id,name,pwd) values (?,?,?) 
+2020-03-0822:37:02 [main:777] - [DEBUG]==> Parameters: 200(Integer), 啊啊(String), 3343(String)
+2020-03-0822:37:02 [main:781] - [DEBUG]<==    Updates: 1
+2020-03-0822:37:02 [main:782] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43bc63a3]
+2020-03-0822:37:02 [main:784] - [DEBUG]Creating a new SqlSession
+2020-03-0822:37:02 [main:784] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3943a2be] was not registered for synchronization because synchronization is not active
+2020-03-0822:37:02 [main:797] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@71c3b41] will not be managed by Spring
+2020-03-0822:37:02 [main:798] - [DEBUG]==>  Preparing: deletes from mybatis.user where id = ? 
+2020-03-0822:37:02 [main:799] - [DEBUG]==> Parameters: 200(Integer)
+2020-03-0822:37:02 [main:810] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3943a2be]
+2020-03-0822:37:27 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0822:37:28 [main:699] - [DEBUG]Creating a new SqlSession
+2020-03-0822:37:28 [main:704] - [DEBUG]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ee203eb]
+2020-03-0822:37:28 [main:712] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b8729ff] will be managed by Spring
+2020-03-0822:37:28 [main:724] - [DEBUG]==>  Preparing: insert into mybatis.user (id,name,pwd) values (?,?,?) 
+2020-03-0822:37:28 [main:750] - [DEBUG]==> Parameters: 200(Integer), 啊啊(String), 3343(String)
+2020-03-0822:37:28 [main:753] - [DEBUG]<==    Updates: 1
+2020-03-0822:37:28 [main:754] - [DEBUG]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ee203eb]
+2020-03-0822:37:28 [main:755] - [DEBUG]Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ee203eb] from current transaction
+2020-03-0822:37:28 [main:756] - [DEBUG]==>  Preparing: deletes from mybatis.user where id = ? 
+2020-03-0822:37:28 [main:756] - [DEBUG]==> Parameters: 200(Integer)
+2020-03-0822:37:28 [main:766] - [DEBUG]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ee203eb]
+2020-03-0822:37:28 [main:810] - [DEBUG]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ee203eb]
+2020-03-0822:37:28 [main:810] - [DEBUG]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ee203eb]
+2020-03-0822:38:57 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0822:38:57 [main:198] - [DEBUG]Creating a new SqlSession
+2020-03-0822:38:57 [main:204] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43bc63a3] was not registered for synchronization because synchronization is not active
+2020-03-0822:38:58 [main:686] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@21b2e768] will not be managed by Spring
+2020-03-0822:38:58 [main:695] - [DEBUG]==>  Preparing: insert into mybatis.user (id,name,pwd) values (?,?,?) 
+2020-03-0822:38:58 [main:722] - [DEBUG]==> Parameters: 200(Integer), 啊啊(String), 3343(String)
+2020-03-0822:38:58 [main:728] - [DEBUG]<==    Updates: 1
+2020-03-0822:38:58 [main:729] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43bc63a3]
+2020-03-0822:38:58 [main:731] - [DEBUG]Creating a new SqlSession
+2020-03-0822:38:58 [main:732] - [DEBUG]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3943a2be] was not registered for synchronization because synchronization is not active
+2020-03-0822:38:58 [main:737] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@71c3b41] will not be managed by Spring
+2020-03-0822:38:58 [main:737] - [DEBUG]==>  Preparing: deletes from mybatis.user where id = ? 
+2020-03-0822:38:58 [main:738] - [DEBUG]==> Parameters: 200(Integer)
+2020-03-0822:38:58 [main:747] - [DEBUG]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3943a2be]
+2020-03-0822:39:23 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0822:39:24 [main:710] - [DEBUG]Creating a new SqlSession
+2020-03-0822:39:24 [main:715] - [DEBUG]Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ee203eb]
+2020-03-0822:39:24 [main:721] - [DEBUG]JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b8729ff] will be managed by Spring
+2020-03-0822:39:24 [main:732] - [DEBUG]==>  Preparing: insert into mybatis.user (id,name,pwd) values (?,?,?) 
+2020-03-0822:39:24 [main:777] - [DEBUG]==> Parameters: 200(Integer), 啊啊(String), 3343(String)
+2020-03-0822:39:24 [main:782] - [DEBUG]<==    Updates: 1
+2020-03-0822:39:24 [main:783] - [DEBUG]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ee203eb]
+2020-03-0822:39:24 [main:783] - [DEBUG]Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ee203eb] from current transaction
+2020-03-0822:39:24 [main:784] - [DEBUG]==>  Preparing: deletes from mybatis.user where id = ? 
+2020-03-0822:39:24 [main:784] - [DEBUG]==> Parameters: 200(Integer)
+2020-03-0822:39:24 [main:793] - [DEBUG]Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ee203eb]
+2020-03-0822:39:24 [main:840] - [DEBUG]Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ee203eb]
+2020-03-0822:39:24 [main:841] - [DEBUG]Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ee203eb]

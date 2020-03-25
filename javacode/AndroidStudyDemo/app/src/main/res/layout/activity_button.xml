@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ButtonActivity">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:text="按钮1"
+        android:textColor="#ff22ab"
+        android:background="#22aa00"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_2"
+        android:text="按钮2"
+        android:layout_below="@+id/btn_1"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff22ab"
+        android:background="@drawable/bg_btn2"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </Button>
+
+
+    <Button
+        android:id="@+id/btn_3"
+        android:text="按钮2"
+        android:layout_below="@+id/btn_2"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff22ab"
+        android:background="@drawable/bg_btn3"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </Button>
+
+</RelativeLayout>

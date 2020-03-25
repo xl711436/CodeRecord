@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ContainerActivity">
+    
+    <Button
+        android:id="@+id/btn_change_b"
+        android:text="更换FragmentB"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_change_a"
+        android:text="更换FragmentA"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/btn_change_b"
+        android:layout_height="40dp">
+
+    </Button>
+
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btn_change_a">
+
+    </FrameLayout>
+
+</RelativeLayout>

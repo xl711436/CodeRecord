@@ -1,0 +1,32 @@
+2020-03-0723:39:33 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0723:39:33 [main:37] - [DEBUG]PooledDataSource forcefully closed/removed all connections.
+2020-03-0723:39:33 [main:37] - [DEBUG]PooledDataSource forcefully closed/removed all connections.
+2020-03-0723:39:33 [main:38] - [DEBUG]PooledDataSource forcefully closed/removed all connections.
+2020-03-0723:39:33 [main:39] - [DEBUG]PooledDataSource forcefully closed/removed all connections.
+2020-03-0723:39:33 [main:177] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.0
+2020-03-0723:39:33 [main:185] - [DEBUG]Opening JDBC Connection
+2020-03-0723:39:33 [main:644] - [DEBUG]Created connection 1308109015.
+2020-03-0723:39:33 [main:645] - [DEBUG]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4df828d7]
+2020-03-0723:39:33 [main:652] - [DEBUG]==>  Preparing: select * from mybatis.user 
+2020-03-0723:39:33 [main:679] - [DEBUG]==> Parameters: 
+2020-03-0723:39:33 [main:694] - [DEBUG]<==      Total: 7
+2020-03-0723:39:33 [main:695] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.0
+2020-03-0723:39:33 [main:697] - [DEBUG]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4df828d7]
+2020-03-0723:39:33 [main:698] - [DEBUG]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4df828d7]
+2020-03-0723:39:33 [main:698] - [DEBUG]Returned connection 1308109015 to pool.
+2020-03-0723:40:02 [main:0] - [DEBUG]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-0723:40:02 [main:32] - [DEBUG]PooledDataSource forcefully closed/removed all connections.
+2020-03-0723:40:02 [main:32] - [DEBUG]PooledDataSource forcefully closed/removed all connections.
+2020-03-0723:40:02 [main:33] - [DEBUG]PooledDataSource forcefully closed/removed all connections.
+2020-03-0723:40:02 [main:33] - [DEBUG]PooledDataSource forcefully closed/removed all connections.
+2020-03-0723:40:02 [main:141] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.0
+2020-03-0723:40:02 [main:148] - [DEBUG]Opening JDBC Connection
+2020-03-0723:40:02 [main:505] - [DEBUG]Created connection 1308109015.
+2020-03-0723:40:02 [main:506] - [DEBUG]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4df828d7]
+2020-03-0723:40:02 [main:517] - [DEBUG]==>  Preparing: select * from mybatis.user 
+2020-03-0723:40:02 [main:570] - [DEBUG]==> Parameters: 
+2020-03-0723:40:02 [main:602] - [DEBUG]<==      Total: 7
+2020-03-0723:40:02 [main:603] - [DEBUG]Cache Hit Ratio [com.xl.dao.UserDao]: 0.0
+2020-03-0723:40:02 [main:606] - [DEBUG]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4df828d7]
+2020-03-0723:40:02 [main:607] - [DEBUG]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4df828d7]
+2020-03-0723:40:02 [main:608] - [DEBUG]Returned connection 1308109015 to pool.

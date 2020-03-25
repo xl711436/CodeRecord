@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- services -->
+
+    <bean id="hello" class="com.xl.pojo.Hello">
+        <property name="str" value="abcd"></property>
+    </bean>
+
+    <bean id="hello1" class="com.xl.pojo.Hello">
+       <!--<constructor-arg index="0"   value="ccc"></constructor-arg>-->
+        <constructor-arg name="str"   value="ccc"></constructor-arg>
+    </bean>
+
+    <bean id="hello-singleton" class="com.xl.pojo.Hello" scope="singleton">
+        <constructor-arg name="str"   value="ccc"></constructor-arg>
+    </bean>
+
+    <bean id="hello-prototype" class="com.xl.pojo.Hello" scope="prototype">
+        <constructor-arg name="str"   value="ccc"></constructor-arg>
+    </bean>
+
+
+    <bean id="mysqlImpl" class="com.xl.dao.UserDaoMysqlImpl"></bean>
+    <bean id="oracleImpl" class="com.xl.dao.UserDaoOracleImpl"></bean>
+    <bean id="sqlserverImpl" class="com.xl.dao.UserDaoSqlServerImpl"></bean>
+
+    <bean id ="UserServiceImpl" class="com.xl.service.UserServiceImpl">
+        <property name="userDao" ref="sqlserverImpl"></property>
+
+    </bean>
+    <!-- more bean definitions for services go here -->
+
+</beans>

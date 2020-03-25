@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Activity.ProgressActivity">
+
+    <ProgressBar
+        android:id="@+id/pb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ProgressBar>
+
+    <ProgressBar
+        android:id="@+id/pb2"
+        android:layout_marginTop="10dp"
+        style="@android:style/Widget.ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ProgressBar>
+
+    <ProgressBar
+        android:id="@+id/pb3"
+        android:layout_marginTop="10dp"
+        android:max="100"
+        android:progress="10"
+        android:secondaryProgress="40"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ProgressBar>
+
+    <ProgressBar
+        android:id="@+id/pb4"
+        android:layout_marginTop="10dp"
+        android:max="100"
+        android:progress="10"
+        android:secondaryProgress="40"
+        style="@android:style/Widget.Material.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ProgressBar>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_marginTop="10dp"
+        android:text="模拟进度"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <ProgressBar
+        android:id="@+id/pb5"
+        android:layout_marginTop="10dp"
+        android:indeterminateDrawable="@drawable/bg_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ProgressBar>
+
+    <ProgressBar
+        android:id="@+id/pb6"
+        android:layout_marginTop="10dp"
+         style="@style/MyProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ProgressBar>
+
+
+    <Button
+        android:id="@+id/btn_progress1"
+        android:layout_marginTop="10dp"
+        android:text="ProgressDialog1"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_progress2"
+        android:layout_marginTop="10dp"
+        android:text="ProgressDialog2"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+</LinearLayout>

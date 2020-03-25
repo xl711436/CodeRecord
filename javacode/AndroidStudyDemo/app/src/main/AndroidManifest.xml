@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication2">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Service.NotificationActivity"></activity>
+        <activity android:name=".CallMessage.CallMessageActivity" />
+        <activity android:name=".Network.RequestActivity" />
+        <activity android:name=".Network.NetworkActivity" />
+        <activity android:name=".ContentProvider.ContentProvideActivity" />
+        <activity android:name=".datastorage.SqliteActivity" />
+        <activity android:name=".BroadcastReceiver.BatteryActivity" />
+        <activity android:name=".BroadcastReceiver.BroadcastMainActivity" />
+        <activity android:name=".Service.MusicServiceActivity" />
+        <activity android:name=".SubMenu.ListActivity" />
+        <activity android:name=".SubMenu.DialogActivity" />
+        <activity android:name=".SubMenu.BaseControlActivity" />
+        <activity android:name=".Animation.AnimationActivity" />
+        <activity android:name=".Animation.ObjectAnimationActivity" />
+        <activity android:name=".BroadcastReceiver.CustomBroadActivity2" />
+        <activity android:name=".BroadcastReceiver.CustomeBroadActivity" />
+        <activity android:name=".datastorage.FileActivity" />
+        <activity android:name=".datastorage.SharedPreferencesActivity" />
+        <activity android:name=".datastorage.DataStorageActivity" />
+        <activity android:name=".Thread.HandlerActivity" />
+        <activity android:name=".fragment.ContainerActivity" />
+        <activity
+            android:name=".jump.BActivity"
+            android:label="bb"
+            android:launchMode="standard">
+            <intent-filter>
+                <action android:name="test.B" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".jump.AActivity"
+            android:label="aa"
+            android:launchMode="standard" />
+        <activity android:name=".Dialog.PopupWindowActivity" />
+        <activity android:name=".Dialog.CustomDialogActivity" />
+        <activity android:name=".Dialog.ProgressActivity" />
+        <activity android:name=".Dialog.AlertDialogActivity" />
+        <activity android:name=".BaseControl.ToastActivity" />
+        <activity android:name=".BaseControl.WebViewActivity" />
+        <activity android:name=".ListControl.PuRecycleViewActivity" />
+        <activity android:name=".ListControl.GridRecycleViewActivity" />
+        <activity android:name=".ListControl.HorRecycleViewActivity" />
+        <activity android:name=".ListControl.LinearRecycleViewActivity" />
+        <activity android:name=".ListControl.RecyCleViewActivity" />
+        <activity android:name=".BaseControl.ImageviewActivity" />
+        <activity android:name=".BaseControl.CheckBoxActivity" />
+        <activity android:name=".BaseControl.RadioButtonActivity" />
+        <activity android:name=".BaseControl.EditTextActivity" />
+        <activity android:name=".BaseControl.ButtonActivity" />
+        <activity android:name=".BaseControl.TextViewActivity" />
+        <activity android:name=".listview.ListViewActivity" />
+        <activity android:name=".gridview.GridViewActivity" />
+        <activity android:name=".LayoutActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Demo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".Service.MusicService" />
+        <service android:name=".Service.TestIntentService" />
+
+        <provider
+            android:name=".ContentProvider.TestContentProvider"
+            android:authorities="com.example.myapplication2" />
+    </application>
+
+</manifest>

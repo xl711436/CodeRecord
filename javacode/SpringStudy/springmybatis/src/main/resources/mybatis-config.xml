@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- 配置文件的根元素 -->
+<configuration>
+
+    <settings>
+        <!--标准的日志工厂实现-->
+        <!-- <setting name="logImpl" value="STDOUT_LOGGING"/>-->
+        <setting name="logImpl" value="LOG4J"/>
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
+
+    <mappers>
+        <mapper resource="UserMapper.xml"/>
+        <mapper resource="UserMapperTransation.xml"/>
+    </mappers>
+</configuration>
