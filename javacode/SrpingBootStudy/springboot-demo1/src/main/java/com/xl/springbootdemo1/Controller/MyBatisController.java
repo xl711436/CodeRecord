@@ -14,38 +14,41 @@ import java.util.List;
 @RequestMapping("/mybatis")
 public class MyBatisController {
     @Autowired
-    UserMapper departmentMapper;
+    UserMapper userMapper;
 
 
     @RequestMapping("/GetUserList")
     public List<User> getUserList() {
-        return departmentMapper.getUserList();
+        return userMapper.getUserList();
     }
 
     @RequestMapping("/GetUserListPage")
     public List<User> getUserListPage(@RequestParam(defaultValue = "1") int pageNo, @RequestParam(defaultValue = "2") int pageSize) {
         PageHelper.startPage(pageNo,pageSize);
-        return departmentMapper.getUserList();
+        return userMapper.getUserList();
     }
 
     @RequestMapping("/GetUserById")
     public User GetUserById(int id) {
-        return departmentMapper.getUserById(id);
+        return userMapper.getUserById(id);
     }
 
     @RequestMapping("/AddUser")
     public int AddUser(User user) {
-        return departmentMapper.addUser(user);
+        return userMapper.addUser(user);
     }
 
     @RequestMapping("/UpdateUser")
     public int updateUser(User user) {
-        return departmentMapper.updateUser(user);
+        return userMapper.updateUser(user);
     }
 
     @RequestMapping("/DeleteUser")
     public int deleteUser(int id) {
-        return departmentMapper.deleteUser(id);
+        return userMapper.deleteUser(id);
     }
+
+
+
 }
 

@@ -1,5 +1,7 @@
 package com.hbezxl.helper;
 
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import com.hbezxl.helper.Pojo.User;
 import com.hbezxl.helper.Pojo.UserCombo;
 import org.junit.Test;
@@ -7,6 +9,7 @@ import org.junit.Test;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.util.*;
+import java.util.regex.Pattern;
 
 public class TotalTest {
 
@@ -121,6 +124,37 @@ public class TotalTest {
 
         String jsonStr = JsonHelper.ObjectToString(curCombo);
         UserCombo curCombo1 = JsonHelper.StringToObject(jsonStr, UserCombo.class);
+
+        JSONObject curObj = JsonHelper.StringToJsonObject(jsonStr);
+
+        JSONArray userHashArray = curObj.getJSONArray("userHash");
+        JSONArray userListArray = curObj.getJSONArray("userList");
+        JSONObject useMapObject = curObj.getJSONObject("useMap");
+
+        for(int i =0;i< userHashArray.size();i++)
+        {
+            Object tempObj = userHashArray.get(i);
+            JSONObject tempJsonObj = userHashArray.getJSONObject(i);
+            String tempName = tempJsonObj.getString("name");
+            int tempAge = tempJsonObj.getInteger("age");
+        }
+
+        for(int i =0;i< userListArray.size();i++)
+        {
+            Object tempObj = userListArray.get(i);
+            JSONObject tempJsonObj = userListArray.getJSONObject(i);
+            String tempName = tempJsonObj.getString("name");
+            int tempAge = tempJsonObj.getInteger("age");
+        }
+
+        for(String curKey : useMapObject.keySet() )
+        {
+            JSONObject tempJsonObj  = useMapObject.getJSONObject(curKey);
+            String tempName = tempJsonObj.getString("name");
+            int tempAge = tempJsonObj.getInteger("age");
+        }
+
+        int a = 5;
     }
 
 
@@ -263,6 +297,27 @@ public class TotalTest {
 
     }
 
+    @Test
+    public void RegexTest() {
 
+        boolean R_Result = false;
+
+        R_Result = RegexHelper.IsUrl("http://22.33.33.33:8080/aa.txt?a=c");
+
+        R_Result = RegexHelper.IsIp("202.125.56.2");
+
+        R_Result = RegexHelper.IsEmail("bb@cc.com");
+        R_Result = RegexHelper.IsIDCard("420704198210100578");
+
+        R_Result = Pattern.matches("^1(3[0-9]|4[57]|5[0-35-9]|7[0135678]|8[0-9])\\d{8}$", "13456543456");
+
+        R_Result = Pattern.matches("^a.*", "baa");
+
+        R_Result = RegexHelper.IsMobileNumber("13456543456");
+        R_Result = RegexHelper.IsMobileNumber("017456543456");
+        R_Result = RegexHelper.IsMobileNumber("86017456543456");
+        R_Result = RegexHelper.IsMobileNumber("868686013456543456");
+        R_Result = RegexHelper.IsMobileNumber("186013456543456");
+    }
 
 }

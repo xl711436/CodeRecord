@@ -44,7 +44,6 @@ spring:
 
 
 
-
 mybatis:
   mapper-locations: classpath:*.xml
 
@@ -67,4 +66,5 @@ person:
     name: 哈哈
     age: 3
 
-
+mybatis-plus:
+  mapper-locations: classpath:*.xml

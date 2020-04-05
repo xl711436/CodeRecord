@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d38f114-b208-41e3-a19f-8a78ed1c46c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../doc/SpringbootTotal.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../doc/SpringbootTotal.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hbezxl/helper/HttpHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hbezxl/helper/HttpHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hbezxl/helper/JsonHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hbezxl/helper/JsonHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SrpingBootStudy/springboot-demo1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SrpingBootStudy/springboot-demo1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SrpingBootStudy/springboot-demo1/src/main/java/com/xl/springbootdemo1/Controller/MyBatisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SrpingBootStudy/springboot-demo1/src/main/java/com/xl/springbootdemo1/Controller/MyBatisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SrpingBootStudy/springboot-demo1/src/main/java/com/xl/springbootdemo1/Mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SrpingBootStudy/springboot-demo1/src/main/java/com/xl/springbootdemo1/Mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SrpingBootStudy/springboot-demo1/src/main/java/com/xl/springbootdemo1/SpringbootDemo1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SrpingBootStudy/springboot-demo1/src/main/java/com/xl/springbootdemo1/SpringbootDemo1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SrpingBootStudy/springboot-demo1/src/main/resources/application-test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../SrpingBootStudy/springboot-demo1/src/main/resources/application-test.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,32 +41,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hbezxl/helper/HttpHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-              <folding>
-                <element signature="e#1014#1015#0" expanded="true" />
-                <element signature="e#1056#1057#0" expanded="true" />
-                <element signature="e#2575#2576#0" expanded="true" />
-                <element signature="e#2617#2618#0" expanded="true" />
-                <element signature="method#GetStringData#0;class#HttpHelper#0" />
-                <element signature="method#DownloadFileFromUrl#0;class#HttpHelper#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1293">
-              <caret line="71" selection-start-line="71" selection-end-line="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.7/httpclient-4.5.7.jar!/org/apache/http/client/methods/HttpGet.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
@@ -71,8 +52,57 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="172">
+              <caret line="304" column="34" selection-start-line="304" selection-start-column="34" selection-end-line="304" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#MySqlTest#0;class#TotalTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hbezxl/helper/RegexHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+              <folding>
+                <element signature="n#!!doc;n#IsIDCard#0;n#RegexHelper#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/Pojo/UserCombo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#876#877#0" expanded="true" />
+                <element signature="e#905#906#0" expanded="true" />
+                <element signature="e#964#965#0" expanded="true" />
+                <element signature="e#995#996#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hbezxl/helper/JsonHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="601">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hbezxl/helper/JsonHelper.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.58/fastjson-1.2.58.jar!/com/alibaba/fastjson/JSON.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="475">
+              <caret line="174" selection-start-line="174" selection-end-line="174" />
             </state>
           </provider>
         </entry>
@@ -130,6 +160,8 @@
     <findStrings>
       <find>code</find>
       <find>aa\\SYSTEM</find>
+      <find>JSONObject</find>
+      <find>I_MobileNumber</find>
     </findStrings>
     <replaceStrings>
       <replace>SYSTEM</replace>
@@ -137,7 +169,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -151,7 +183,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/hbezxl/helper/FtpHelperTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/hbezxl/helper/Pojo/UserCombo.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/hbezxl/helper/Pojo/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbezxl/helper/JsonHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hbezxl/helper/TxtHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hbezxl/helper/SqlClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hbezxl/helper/FtpClient.java" />
@@ -161,8 +192,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/hbezxl/helper/ProcessHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hbezxl/helper/RegisterHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hbezxl/helper/HttpHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hbezxl/helper/JsonHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hbezxl/helper/RegexHelper.java" />
       </list>
     </option>
   </component>
@@ -180,12 +213,11 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="2576" />
-    <option name="height" value="1426" />
+    <option name="x" value="-7" />
+    <option name="width" value="1461" />
+    <option name="height" value="1417" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
@@ -197,71 +229,62 @@
         <subPane>
           <expand>
             <path>
-              <item name="Xiaolei.JavaHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Xiaolei.JavaHelper" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaHelper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHelper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Xiaolei.JavaHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Xiaolei.JavaHelper" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaHelper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHelper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Xiaolei.JavaHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Xiaolei.JavaHelper" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaHelper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHelper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Xiaolei.JavaHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Xiaolei.JavaHelper" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaHelper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHelper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Xiaolei.JavaHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Xiaolei.JavaHelper" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaHelper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHelper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="helper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Xiaolei.JavaHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Xiaolei.JavaHelper" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaHelper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHelper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Xiaolei.JavaHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Xiaolei.JavaHelper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Xiaolei.JavaHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Xiaolei.JavaHelper" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaHelper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHelper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="helper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Xiaolei.JavaHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Xiaolei.JavaHelper" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaHelper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHelper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="helper" type="462c0819:PsiDirectoryNode" />
-              <item name="Pojo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,23 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TotalTest.HttpTest">
-    <configuration name="TotalTest.CommonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaHelper" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hbezxl.helper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hbezxl.helper" />
-      <option name="MAIN_CLASS_NAME" value="com.hbezxl.helper.TotalTest" />
-      <option name="METHOD_NAME" value="CommonTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TotalTest.RegexTest">
     <configuration name="TotalTest.HttpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaHelper" />
       <extension name="coverage">
@@ -316,6 +323,22 @@
       <option name="PACKAGE_NAME" value="com.hbezxl.helper" />
       <option name="MAIN_CLASS_NAME" value="com.hbezxl.helper.TotalTest" />
       <option name="METHOD_NAME" value="HttpTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TotalTest.JsonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaHelper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hbezxl.helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hbezxl.helper" />
+      <option name="MAIN_CLASS_NAME" value="com.hbezxl.helper.TotalTest" />
+      <option name="METHOD_NAME" value="JsonTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -337,6 +360,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TotalTest.RegexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaHelper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hbezxl.helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hbezxl.helper" />
+      <option name="MAIN_CLASS_NAME" value="com.hbezxl.helper.TotalTest" />
+      <option name="METHOD_NAME" value="RegexTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TotalTest.RegistTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaHelper" />
       <extension name="coverage">
@@ -353,29 +392,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TotalTest.SqlServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaHelper" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hbezxl.helper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hbezxl.helper" />
-      <option name="MAIN_CLASS_NAME" value="com.hbezxl.helper.TotalTest" />
-      <option name="METHOD_NAME" value="SqlServerTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TotalTest.RegexTest" />
+        <item itemvalue="JUnit.TotalTest.JsonTest" />
         <item itemvalue="JUnit.TotalTest.HttpTest" />
         <item itemvalue="JUnit.TotalTest.RegistTest" />
         <item itemvalue="JUnit.TotalTest.ProcessTest" />
-        <item itemvalue="JUnit.TotalTest.CommonTest" />
-        <item itemvalue="JUnit.TotalTest.SqlServerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -395,49 +418,50 @@
       <workItem from="1584546327963" duration="14403000" />
       <workItem from="1584765816951" duration="12770000" />
       <workItem from="1585042817036" duration="6476000" />
+      <workItem from="1585709512059" duration="20320000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TotalTest_RegistTest - 2020.03.21 at 15h 17m 55s.xml">
-      <configuration name="TotalTest.RegistTest" configurationId="JUnit" />
+    <history-entry file="TotalTest_RegexTest - 2020.04.05 at 11h 47m 48s.xml">
+      <configuration name="TotalTest.RegexTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TotalTest_RegistTest - 2020.03.21 at 15h 28m 01s.xml">
-      <configuration name="TotalTest.RegistTest" configurationId="JUnit" />
+    <history-entry file="TotalTest_RegexTest - 2020.04.05 at 12h 30m 33s.xml">
+      <configuration name="TotalTest.RegexTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TotalTest_RegistTest - 2020.03.21 at 15h 30m 52s.xml">
-      <configuration name="TotalTest.RegistTest" configurationId="JUnit" />
+    <history-entry file="TotalTest_RegexTest - 2020.04.05 at 14h 33m 28s.xml">
+      <configuration name="TotalTest.RegexTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TotalTest_RegistTest - 2020.03.21 at 15h 33m 27s.xml">
-      <configuration name="TotalTest.RegistTest" configurationId="JUnit" />
+    <history-entry file="TotalTest_RegexTest - 2020.04.05 at 14h 41m 23s.xml">
+      <configuration name="TotalTest.RegexTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TotalTest_RegistTest - 2020.03.21 at 15h 38m 19s.xml">
-      <configuration name="TotalTest.RegistTest" configurationId="JUnit" />
+    <history-entry file="TotalTest_RegexTest - 2020.04.05 at 14h 48m 50s.xml">
+      <configuration name="TotalTest.RegexTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TotalTest_RegistTest - 2020.03.21 at 15h 45m 34s.xml">
-      <configuration name="TotalTest.RegistTest" configurationId="JUnit" />
+    <history-entry file="TotalTest_RegexTest - 2020.04.05 at 14h 49m 11s.xml">
+      <configuration name="TotalTest.RegexTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TotalTest_RegistTest - 2020.03.21 at 15h 46m 15s.xml">
-      <configuration name="TotalTest.RegistTest" configurationId="JUnit" />
+    <history-entry file="TotalTest_RegexTest - 2020.04.05 at 14h 49m 29s.xml">
+      <configuration name="TotalTest.RegexTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TotalTest_HttpTest - 2020.03.24 at 22h 56m 24s.xml">
-      <configuration name="TotalTest.HttpTest" configurationId="JUnit" />
+    <history-entry file="TotalTest_RegexTest - 2020.04.05 at 14h 49m 48s.xml">
+      <configuration name="TotalTest.RegexTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TotalTest_HttpTest - 2020.03.24 at 22h 56m 44s.xml">
-      <configuration name="TotalTest.HttpTest" configurationId="JUnit" />
+    <history-entry file="TotalTest_RegexTest - 2020.04.05 at 14h 51m 30s.xml">
+      <configuration name="TotalTest.RegexTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TotalTest_HttpTest - 2020.03.24 at 23h 03m 19s.xml">
-      <configuration name="TotalTest.HttpTest" configurationId="JUnit" />
+    <history-entry file="TotalTest_RegexTest - 2020.04.05 at 14h 52m 12s.xml">
+      <configuration name="TotalTest.RegexTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84791000" />
+    <option name="totallyTimeSpent" value="105111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2599364" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2619237" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -447,7 +471,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993808" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3993808" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -476,25 +500,25 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
-          <line>85</line>
+          <line>88</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
-          <line>119</line>
+          <line>122</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
-          <line>128</line>
+          <line>162</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
-          <line>153</line>
+          <line>187</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
@@ -512,13 +536,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
-          <line>158</line>
+          <line>192</line>
           <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
-          <line>54</line>
+          <line>57</line>
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
@@ -530,79 +554,79 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
-          <line>97</line>
+          <line>100</line>
           <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
-          <line>179</line>
+          <line>213</line>
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
-          <line>192</line>
+          <line>226</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
-          <line>19</line>
+          <line>22</line>
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
-          <line>207</line>
+          <line>241</line>
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
-          <line>208</line>
+          <line>242</line>
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
-          <line>227</line>
+          <line>261</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
-          <line>224</line>
+          <line>258</line>
           <properties />
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
-          <line>225</line>
+          <line>259</line>
           <properties />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
-          <line>235</line>
+          <line>269</line>
           <properties />
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
-          <line>219</line>
+          <line>253</line>
           <properties />
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
-          <line>216</line>
+          <line>250</line>
           <properties />
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
-          <line>46</line>
+          <line>49</line>
           <properties />
           <option name="timeStamp" value="60" />
         </line-breakpoint>
@@ -624,24 +648,66 @@
           <properties />
           <option name="timeStamp" value="63" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
+          <line>156</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
+          <line>149</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
+          <line>302</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java</url>
+          <line>304</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="curClass.getJSONObject(&quot;useMap&quot;)" language="JAVA" />
+        <watch expression="curClass.getJSONArray(&quot;userList&quot;)" language="JAVA" />
+        <watch expression="array1.siz" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>array1.siz</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>curClass.getJSONArray(&quot;userList&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>curClass.getJSONObject(&quot;useMap&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/io/FileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="53" column="69" lean-forward="true" selection-start-line="53" selection-start-column="69" selection-end-line="53" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/io/FileWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="51" column="50" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/io/InputStreamReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
@@ -738,39 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.58/fastjson-1.2.58.jar!/com/alibaba/fastjson/JSON.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="372" column="5" lean-forward="true" selection-start-line="372" selection-start-column="5" selection-end-line="372" selection-end-column="5" />
-          <folding>
-            <element signature="e#15341#15342#0" expanded="true" />
-            <element signature="e#15388#15389#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/Pojo/UserCombo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -933,28 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/io/BufferedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbezxl/helper/TraceHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.7/httpclient-4.5.7.jar!/org/apache/http/client/methods/CloseableHttpResponse.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -997,32 +1008,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.7/httpclient-4.5.7.jar!/org/apache/http/client/methods/HttpGet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hbezxl/helper/HttpHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="243">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding>
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#2575#2576#0" expanded="true" />
-            <element signature="e#2617#2618#0" expanded="true" />
             <element signature="method#GetStringData#0;class#HttpHelper#0" />
             <element signature="method#DownloadFileFromUrl#0;class#HttpHelper#0" />
           </folding>
@@ -1031,15 +1021,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1293">
+        <state relative-caret-position="1917">
           <caret line="71" selection-start-line="71" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.7/httpclient-4.5.7.jar!/org/apache/http/client/methods/HttpGet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbezxl/helper/TraceHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.58/fastjson-1.2.58.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hbezxl/helper/JsonHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="601">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/Pojo/UserCombo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hbezxl/helper/TotalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="304" column="34" selection-start-line="304" selection-start-column="34" selection-end-line="304" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#MySqlTest#0;class#TotalTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbezxl/helper/RegexHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+          <folding>
+            <element signature="n#!!doc;n#IsIDCard#0;n#RegexHelper#0" />
+          </folding>
         </state>
       </provider>
     </entry>
