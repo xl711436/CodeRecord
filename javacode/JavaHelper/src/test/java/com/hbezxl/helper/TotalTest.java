@@ -176,6 +176,9 @@ public class TotalTest {
                 int id = curSet.getInt("id");
 
             }
+
+            mySqlClient.ExecTransation(curConnection,new String[]{"update mybatis.user set name ='aabbcc' where id = 1336","update mybatis.user set name ='aa'where name = 'aabbcc'"});
+
         } catch (Exception Exc) {
             TraceHelper.TraceInfo("MySqlTest " + CommonHelper.GetExceptionStackTrace(Exc));
         } finally {
