@@ -71,18 +71,26 @@ public class SqlClient
     }
 
 
-    public  int ExecSql(Connection I_Connection, String I_CmdText)
+    public  int ExecTransation(Connection I_Connection, String[] I_CmdText)
     {
-        int i;
+        int i=0;
         try
         {
-            Statement stmt = I_Connection.createStatement();
-            i = stmt.executeUpdate(I_CmdText);
+            for(String curCmd :I_CmdText) {
+                Statement stmt = I_Connection.createStatement();
+                stmt.executeUpdate(curCmd);
+            }
+            I_Connection.commit();
 
         } catch (SQLException ex)
         {
-
             i = -1;
+            try {
+                I_Connection.rollback();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+
         }
 
         return i;
@@ -111,6 +119,27 @@ public class SqlClient
 
     }
 
+    public  int ExecSql(Connection I_Connection, String I_CmdText)
+    {
+        int i;
+        try
+        {
+            Statement stmt = I_Connection.createStatement();
+            i = stmt.executeUpdate(I_CmdText);
+
+        } catch (SQLException ex)
+        {
+
+            i = -1;
+        }
+
+        return i;
+    }
+
+
+
+
+
     public   Object buildScalar(ResultSet I_ResultSet)
     {
 
@@ -127,6 +156,8 @@ public class SqlClient
         }
         return obj;
     }
+
+
 
 
     public   void close(Object I_Obj)
